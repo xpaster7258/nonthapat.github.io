@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        let i
+        function forloop() {
+        let j
+        i = parseInt(document.getElementById('num1').value)
+            for (j = 0; j < i; j++){
+            document.getElementById('output').innerHTML += "Hello <br>"
+        }
+        }
+    </script>
+    <title>14-loop-for.html</title>
+</head>
+<body>
+   Input Number : <input type="text" name="" id="num1">
+   <br><br>
+   <input type="submit" value="submit" onclick="forloop()">
+   <br>
+   <p id='output'></p>
+</body>
+</html>
